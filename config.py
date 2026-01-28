@@ -55,4 +55,4 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
 
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://u4qjhl1ggkhjn0:pad33ebcabb9e2bf99ef3f085659ff68fea1f6aeafe81e8f335de036d71f87d22@c7itisjfjj8ril.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/daqi8tpehbh1on")
